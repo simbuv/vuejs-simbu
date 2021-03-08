@@ -1,12 +1,12 @@
 {
 	"id": 3,
-	"name": "Tyrion",
-	"email": "tyrion@test.com",
-	"phone": "123412345",
-	"city": "Chennai",
-	"state": "Tamil Nadu",
-	"country": "India",
+	"name": "Balamurugan",
+	"email": "bala@test.com",
+	"phone": "4379965557",
+	"city": "Toronto",
+	"state": "Ontario",
+	"country": "Canada",
 	"organization": "Company 3",
-	"jobProfile": "Software Developer",
+	"jobProfile": "Project Manager",
 	"additionalInfo": "Buys Lots of Products in general"
 }

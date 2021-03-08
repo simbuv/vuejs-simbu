@@ -69,6 +69,7 @@ export default {
             this.selectedCustomer = name;
         },
         goToDetailsPage: function(id) {
+          
             this.$router.push("/customerdetails/"+id);
         }
     }

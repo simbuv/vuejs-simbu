@@ -1,11 +1,11 @@
 {
 	"id": 2,
-	"name": "ABCD",
-	"email": "abcd@test.com",
-	"phone": "987654321",
-	"city": "Mangalore",
-	"state": "karnataka",
-	"country": "India",
+	"name": "Murali",
+	"email": "murali@test.com",
+	"phone": "6476426740",
+	"city": "Toronto",
+	"state": "Ontario",
+	"country": "Canada",
 	"organization": "Company 2",
 	"jobProfile": "Software Developer",
 	"additionalInfo": "Buys Products Rarely"

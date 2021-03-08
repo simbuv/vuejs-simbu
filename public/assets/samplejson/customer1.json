@@ -1,12 +1,12 @@
 {
 	"id": 1,
-	"name": "John Smith",
-	"email": "jsmith@test.com",
-	"phone": "123456789",
-	"city": "bangalore",
-	"state": "karnataka",
-	"country": "India",
-	"organization": "Company 1",
-	"jobProfile": "Software Developer",
+	"name": "Suresh",
+	"email": "suresh@test.com",
+	"phone": "4167209454",
+	"city": "Toronto",
+	"state": "Ontario",
+	"country": "Canada",
+	"organization": "TD",
+	"jobProfile": "Lead Developer",
 	"additionalInfo": "Has Bought a lot of products before and a high Value Customer"
 }
