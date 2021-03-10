@@ -60,7 +60,7 @@ export default {
             customerlist: [],
             selectedCustomer: ""
         }
-    },
+    },  
     components: {
         Display
     },

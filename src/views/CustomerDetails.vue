@@ -53,7 +53,7 @@ export default {
     mounted() {
         axios({
             method: "GET",
-            "url": "assets/samplejson/customer"+this.$route.params.id+".json"
+            "url": "/assets/samplejson/customer"+this.$route.params.id+".json"
         }).then(response => {
             this.customerDetails = response.data;
         }, error => {
