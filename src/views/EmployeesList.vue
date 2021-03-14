@@ -25,6 +25,8 @@ import axios from 'axios'
 import VueAxis from 'vue-axios'
 Vue.use(VueAxis,axios)
 
+require("dotenv").config();
+//console.log(process.env.VUE_APP_EMPLOYEESLIST_API);
 export default {
     name:"EmployeesList",
      data() {
@@ -34,8 +36,9 @@ export default {
      },
      mounted() {
         axios({
+            
             method: "GET",
-            "url": "http://dummy.restapiexample.com/api/v1/employees"
+            "url": `${process.env.VUE_APP_EMPLOYEESLIST_API}`
         }).then(response => {
             this.EmployeesList = response.data.data;
            

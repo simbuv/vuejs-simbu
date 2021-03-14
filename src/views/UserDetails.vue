@@ -35,7 +35,7 @@ export default {
      mounted() {
         axios({
             method: "GET",
-            "url": "https://reqres.in/api/users?page=2"
+            "url": `${process.env.VUE_APP_USERDETAILS_API}`
         }).then(response => {
             this.UserDetails = response.data.data;
            

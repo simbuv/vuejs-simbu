@@ -47,7 +47,7 @@ export default {
     mounted() {
         axios({
             method: "GET",
-            "url": "assets/samplejson/customerlist.json"
+            "url": "/assets/samplejson/customerlist.json"
         }).then(response => {
             this.customerlist = response.data;
         }, error => {
